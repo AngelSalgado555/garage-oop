@@ -19,28 +19,28 @@ public class Vehicle {
         return vehicleType;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public int getMaxSpeed() {
-        return maxSpeed;
-    }
-
-    public String getPlate() {
-        return plate;
-    }
-
     public void setVehicleType(VehicleType vehicleType) {
         this.vehicleType = vehicleType;
+    }
+
+    public String getColor() {
+        return color;
     }
 
     public void setColor(String color) {
         this.color = color;
     }
 
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
+    }
+
+    public String getPlate() {
+        return plate;
     }
 
     public void setPlate(String plate) {
